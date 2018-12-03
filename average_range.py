@@ -6,4 +6,4 @@ for i in range(0,11):
     avg = sum(numbers)/len(numbers)
     averages.append(avg)
 sorted(averages)
-print(averages[len(averages//2)])
+print(averages[len(averages)//2])
